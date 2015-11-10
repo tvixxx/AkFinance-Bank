@@ -23,9 +23,10 @@ body {
 	margin: 0 auto;
 	padding: 0 83px;
 }
-.container {
+.main-container {
 	width: 977px;
 	padding: 0 10px;
+	margin: 0 auto;
 }
 .footer-container {
 	width: 1200px;
@@ -110,7 +111,26 @@ header {
 Main-Content 
 *
 */
-
+.main-content {
+	min-height: 500px;
+}
+.input-block {
+	display: inline-block;
+	vertical-align: baseline;
+}
+.input-block:first-child {
+	max-width: 282px;
+}
+.input-block:nth-child(1) {
+	margin-right: 40px;
+}
+.input-block label {
+	display: block;
+	font-size: 12px;
+}
+.input-block input {
+	width: 260px;
+}
 
 
 /*
@@ -146,6 +166,6 @@ Footer
 }
 .contacts span {
 	display: block;
-	font-size: 12px;
 	float: right;
+	font-size: 12px;
 }
