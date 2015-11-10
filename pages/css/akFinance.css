@@ -54,6 +54,8 @@ header {
 .main-logo {
 	display: inline-block;
 	float: left;
+	margin-top: 25px;
+	margin-bottom: 35px;
 }
 .main-logo img {
 	width: 90px;
@@ -67,9 +69,9 @@ header {
 	display: block;
 	font-family: "Open Sans Bold", Arial, sans-serif;
 	font-size: 40px;
-	line-height: 60px;
+	line-height: 40px;
 	font-weight: 700;
-	margin: 0;
+	margin: 45px 0 0 25px;
 	text-transform: uppercase;
 	color: #0073b7;
 }
@@ -77,9 +79,9 @@ header {
 	display: block;
 	font-family: "Open Sans Bold", Arial, sans-serif;
 	font-size: 20px;
-	line-height: 32px;
+	line-height: 24px;
 	font-weight: 700;
-	margin: 0;
+	margin: 0 0 0 25px;
 	text-transform: lowercase;
 	color: #0073b7;
 }
@@ -94,6 +96,7 @@ header {
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
+	margin-top: 43px;
 	text-transform: uppercase;
 	text-decoration: underline;
 	color: #000;
@@ -102,8 +105,19 @@ header {
 	text-decoration: none;
 }
 
+/*
+*
+Main-Content 
+*
+*/
 
 
+
+/*
+*
+Footer
+*
+*/
 .main-footer {
 	margin-left: auto;
 	margin-right: auto;
