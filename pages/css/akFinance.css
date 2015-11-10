@@ -5,9 +5,9 @@ Common Rules
 */
 
 body {
+	font-family: "Open Sans Regular", Arial, sans-serif;
 	font-size: 12px;
 	line-height: 24px;
-	font-family: "Open Sans Regular", Arial, sans-serif;
 	font-weight: 400;
 	min-width: 996px;
 	margin: 0;
@@ -19,7 +19,7 @@ body {
 	clear: both;
 }
 .header-container {
-	min-width: 1200px;
+	width: 1200px;
 	margin: 0 auto;
 	padding: 0 83px;
 }
@@ -28,7 +28,88 @@ body {
 	padding: 0 10px;
 }
 .footer-container {
-	min-width: 1200px;
+	width: 1200px;
+	min-height: 165px;
 	margin: 0 auto;
 	padding: 0 83px;
+	color: #000;
+}
+
+/*
+*
+Header
+*
+*/
+header {
+	min-width: 1920px;
+	border-bottom: 2px solid #0073b7;
+}
+.main-header {
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 135px;
+	font-size: 0;
+}
+.main-logo {
+	display: inline-block;
+	float: left;
+}
+.main-logo img {
+	width: 90px;
+	height: 100px;
+}
+.main-title {
+	display: inline-block;
+	float: left;
+
+}
+.main-title h1 {
+	display: block;
+	font-family: "Open Sans Bold", Arial, sans-serif;
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 700;
+	margin: 0;
+	text-transform: uppercase;
+	color: #0073b7;
+}
+.main-title span {
+	display: block;
+	font-family: "Open Sans Bold", Arial, sans-serif;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 700;
+	margin: 0;
+	text-transform: lowercase;
+	color: #0073b7;
+}
+.return {
+	display: inline-block;
+	float: right;
+	margin: 0;
+}
+.return a {
+	display: block;
+	font-family: "Open Sans Regular", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #000;
+}
+.return a:hover {
+
+}
+
+
+
+.main-footer {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e7f6fc;
+}
+.contacts {
+
 }
