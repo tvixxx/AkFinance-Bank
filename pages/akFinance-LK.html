@@ -27,19 +27,25 @@
 	</header>
 
 	<!-- Main -->
-	<div class="main-content clearfix">
-		<div class="container">
-			<form action="/echo" method="post">
-
-				<label for="email-id">ИНН или E-mail</label>
-				<input type="email" name="email" id="email-id" value="">
-			
-				<label for="pass-id">пароль</label>
-				<a class="restore" href="#">Забыли пароль?</a>
-				<input type="password" name="password" id="pass-id" value="">
-			
-				<button class="btn" type="submit">Войти</button>
-			</form>
+	<div class="main-content">
+		<div class="main-container">
+			<div class="login-form">
+				<form action="/echo" method="post">
+					
+					<div class="input-block email-block">
+						<label for="email-id">ИНН или E-mail</label>
+						<input type="email" name="email" class="icon-user" id="email-id" value="">
+					</div>
+				
+					<div class="input-block pass-block">
+						<label for="pass-id">Пароль</label>
+						<a class="restore" href="#">Забыли пароль?</a>
+						<input type="password" name="password" class="icon-pass" id="pass-id" value="">
+					</div>
+				
+					<button class="btn" type="submit">Войти</button>
+				</form>
+			</div>
 		</div>
 	</div>
 
