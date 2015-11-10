@@ -41,7 +41,7 @@ Header
 *
 */
 header {
-	min-width: 1920px;
+	max-width: 1920px;
 	border-bottom: 2px solid #0073b7;
 }
 .main-header {
@@ -62,7 +62,6 @@ header {
 .main-title {
 	display: inline-block;
 	float: left;
-
 }
 .main-title h1 {
 	display: block;
@@ -100,7 +99,7 @@ header {
 	color: #000;
 }
 .return a:hover {
-
+	text-decoration: none;
 }
 
 
@@ -111,5 +110,28 @@ header {
 	background-color: #e7f6fc;
 }
 .contacts {
-
+	display: block;
+	float: right;
+	max-width: 612px;
+	margin-top: 45px;
+}
+.contacts h2 {
+	display: block;
+	float: right;
+	font-family: "Open Sans Regular", Arial, sans-serif;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 300;
+	margin: 0;
+}
+.contacts p {
+	display: block;
+	float: right;
+	font-size: 12px;
+	margin: 0;
+}
+.contacts span {
+	display: block;
+	font-size: 12px;
+	float: right;
 }
