@@ -1,0 +1,34 @@
+/* 
+*
+Common Rules
+*
+*/
+
+body {
+	font-size: 12px;
+	line-height: 24px;
+	font-family: "Open Sans Regular", Arial, sans-serif;
+	font-weight: 400;
+	min-width: 996px;
+	margin: 0;
+	color: #000;
+}
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+.header-container {
+	min-width: 1200px;
+	margin: 0 auto;
+	padding: 0 83px;
+}
+.container {
+	width: 977px;
+	padding: 0 10px;
+}
+.footer-container {
+	min-width: 1200px;
+	margin: 0 auto;
+	padding: 0 83px;
+}
