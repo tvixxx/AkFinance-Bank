@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вход в личный кабинет </title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/akFinance.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header class="main-header clearfix">
+		<div class="header-container">
+			<div class="main-title">
+				<img src="images/main-logo-compress.png" height="100" width="90" alt="main logo">
+				<h1>Ак Финанс</h1>
+				<span>Лизинговая компания</span>
+			</div>
+			<div class="return">
+				<a href="#">Вернуться на сайт</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="main-content clearfix">
+		<div class="container">
+			<form action="/echo" method="post">
+
+				<label for="email-id">ИНН или E-mail</label>
+				<input type="email" name="email" id="email-id" value="">
+			
+				<label for="pass-id">пароль</label>
+				<a class="restore" href="#">Забыли пароль?</a>
+				<input type="password" name="password" id="pass-id" value="">
+			
+				<button class="btn" type="submit">Войти</button>
+			</form>
+		</div>
+	</div>
+
+	<footer class="main-footer">
+		<div class="footer-container">
+			<div class="contacts">
+				<h2>+7 (843) 212-01-72</h2>
+				<p>
+					ЗАО "Ак Финанс", ИНН 1657036100,   420107, г.Казань, ул.Салимжанова, д.2В, оф.506
+					<a>akfinance@mail.ru</a>
+				</p>
+				<span>Создание сайта Шилов К.А.</span>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>
