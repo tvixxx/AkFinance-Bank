@@ -115,9 +115,14 @@ Main-Content
 	min-height: 500px;
 	font-size: 0;
 }
+.login-form form {
+	max-width: 820px;
+	margin-bottom: 140px;
+}
 .input-block {
 	display: inline-block;
 	vertical-align: baseline;
+	margin-bottom: 15px;
 }
 .input-block:first-child {
 	max-width: 282px;
@@ -145,10 +150,10 @@ Main-Content
 }
 
 .input-block input.icon-user {
-	background-position: 13px 6px;
+	background-position: 13px 9px;
 }
 .input-block input.icon-pass {
-	background-position: 13px -64px;
+	background-position: 13px -62px;
 }
 .input-block label:nth-child(1) {
 	display: inline-block;
@@ -165,6 +170,51 @@ Main-Content
 }
 .restore:hover {
 	text-decoration: none;
+}
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	height: 43px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 78px;
+	padding-left: 70px;
+	margin-top: 22px;
+	/* Hide text*/
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	background: #007BC4 url(../images/sprites/icons-LK.png) no-repeat center;
+}
+.btn:hover {
+	background-color: #5bc0eb;
+}
+.button-login {
+	background-position: 137px -126px;
+}
+.login-form a.icon-reg {
+	display: block;
+	width: 270px;
+	font-size: 13px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 33px;
+	padding-right: 31px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	color: #000;
+	background: #e7f6fc url(../images/sprites/icons-LK.png) no-repeat;
+	background-position: 296px -194px;
+	text-decoration: none;
+}
+a.icon-reg:hover {
+	background-color: #d7e2e7;
 }
 
 /*
@@ -190,16 +240,20 @@ Footer
 	font-size: 20px;
 	line-height: 32px;
 	font-weight: 300;
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 10px;
 }
 .contacts p {
 	display: block;
 	float: right;
 	font-size: 12px;
-	margin: 0;
+	line-height: 24px;
+	margin-top: 0;
+	margin-bottom: 20px;
 }
 .contacts span {
 	display: block;
 	float: right;
 	font-size: 12px;
+	line-height: 24px;
 }
