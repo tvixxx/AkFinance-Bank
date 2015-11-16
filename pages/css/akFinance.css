@@ -38,6 +38,15 @@ body {
 
 /*
 *
+Inner-Page
+*
+*/
+.inner-page {
+	background-color: #fff;
+}
+
+/*
+*
 Header
 *
 */
@@ -234,8 +243,44 @@ a.icon-reg:hover {
 	margin-bottom: 40px;
 	font-size: 12px;
 	color: #000;
-
 }
+
+
+/*
+*
+Inner-page Access
+*
+*/
+
+.inner-page .btn {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 250px;
+	min-height: 43px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 10px;
+	margin-top: 22px;
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	background:  #5bc0eb url(../images/sprites/icons-LK.png) no-repeat center;
+}
+.inner-page .btn:hover {
+	background-color: #10A7E7;
+	transition: All 0.5s ease;
+}
+.inner-page .button-access {
+	background-position: 220px -125px;
+}
+
+
+
 
 /*
 *
