@@ -39,7 +39,7 @@
 				
 					<div class="input-block">
 						<label for="pass-id">Пароль</label>
-						<a class="restore" href="#">Забыли пароль?</a>
+						<a onmouseover="return showHelper()" onmouseout="return hideHelper()" class="restore" href="#">Забыли пароль?</a>
 						<input type="password" name="password" class="icon-pass" id="pass-id" value="">
 					</div>
 				
@@ -64,5 +64,15 @@
 		</div>
 	</footer>
 	
+
+	<!-- Hover Forget Pass window -->
+	<div class="helper-pass">
+		<p>please click if u forget password!</p>
+	</div>
+
+
+
+	<script src="../../jQuery/jquery-1.11.3.js"></script>
+	<script src="js/AkFinance-js.js"></script>
 </body>
 </html>
