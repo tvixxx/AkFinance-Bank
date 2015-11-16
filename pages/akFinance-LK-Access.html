@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вход в личный кабинет </title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/akFinance.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+</head>
+<body class="inner-page">
+	<!-- Header -->
+	<header class="main-header">
+		<div class="header-container clearfix">
+			<div class="main-logo">
+				<img src="images/main-logo-compress.png" height="100" width="90" alt="main logo">
+			</div class="main-logo">
+			<div class="main-title">
+				<h1>Ак Финанс</h1>
+				<span>Лизинговая компания</span>
+			</div>
+			<div class="return">
+				<a href="#">Вернуться на сайт</a>
+			</div>
+		</div>
+	</header>
+
+	<!-- Main -->
+	<div class="main-content">
+		<div class="main-container">
+			<div class="login-form clearfix">
+				<h1>Восстановление пароля для доступа в личный кабинет</h1>
+				<form action="/echo" method="post">
+					<div class="input-block">
+						<label for="email-id">E-mail</label>
+						<input type="email" name="email" class="icon-user" id="email-id" value="">
+					</div>
+					<button class="btn button-access" type="submit">Получить новый пароль</button>
+				</form>
+				<p>На Ваш E-mail придет письмо с новым паролем, который можно будет заменить в настройках личного кабинета.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="main-footer">
+		<div class="footer-container">
+			<div class="contacts clearfix">
+				<h2>+7 (843) 212-01-72</h2>
+				<p>
+					ЗАО "Ак Финанс", ИНН 1657036100,   420107, г.Казань, ул.Салимжанова, д.2В, оф.506
+					<a href="#">akfinance@mail.ru</a>
+				</p>
+				<span>Создание сайта Шилов К.А.</span>
+			</div>
+		</div>
+	</footer>
+	
+
+	<!-- Hover Forget Pass window -->
+	<div class="helper-pass">
+		<p>please click if u forget password!</p>
+	</div>
+
+
+
+	<script src="../../jQuery/jquery-1.11.3.js"></script>
+	<script src="js/AkFinance-js.js"></script>
+</body>
+</html>
