@@ -116,6 +116,7 @@ Main-Content
 	font-size: 0;
 }
 .login-form form {
+	position: relative;
 	max-width: 820px;
 	margin-bottom: 140px;
 }
@@ -255,4 +256,48 @@ Footer
 	float: right;
 	font-size: 12px;
 	line-height: 24px;
+}
+
+
+
+
+/*
+*
+JavaScript
+*
+*/
+
+/* Helper for login page */
+.helper-pass p{
+	display: block;
+	position: absolute;
+	max-width: 200px;
+	min-height: 20px;
+	top: 240px;
+	left: 600px;
+	padding: 10px 10px;
+	background-color: #e7f6fc;
+	z-index: 2;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+.helper-pass p:after {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 35px;
+	left: 90px;
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+	background-color: #e7f6fc;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.helper-pass p {
+	font-size: 12px;
+}
+.helper-pass-hide p{
+	display: none;
 }
