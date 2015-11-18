@@ -1,3 +1,23 @@
+/* Fourth method with hover animation*/
+$(document).ready(function(){
+    var helperLink = $('#helperLink');
+    var helperBlock = $('#helper-pass').addClass('hide');
+
+    //animation
+    helperLink.hover(function(){
+        // fadeIn
+        helperBlock.animate ({
+            'opacity' : 'show'
+                })
+        }, //fadeOut
+        function(){
+        helperBlock.animate({
+            'opacity' : 'hide'
+        });
+    });
+});
+
+
 /* First method */
 $(document).ready(function(){
     var helperLink = $('#helperLink');
