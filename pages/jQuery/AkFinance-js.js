@@ -1,14 +1,11 @@
 $(document).ready(function(){
-    $('div.helper-pass').addClass('helper-pass-hide');
+    var helperLink = $('a.restore');
+    var helperBlock = $('.helper-pass').addClass('hide');
+    
+        helperLink.on('mouseover', function(){
+            helperBlock.removeClass('hide').addClass('show');
+        });
+        helperLink.on('mouseleave', function(){
+           helperBlock.removeClass('show').addClass('hide');
+        });
 });
-
-function showHelper (){
-    $('.restore').mouseover(function(){
-       $('.helper-pass').show(500).removeClass('helper-pass-hide');
-    });
-}
-function hideHelper (){
-    $('.restore').mouseout(function(){
-        $('.helper-pass').hide(500).addClass('helper-pass-hide');
-    });
-}
