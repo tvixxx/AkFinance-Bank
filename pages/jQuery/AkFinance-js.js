@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    var helperLink = $('a.restore');
+    var helperLink = $('#helperLink');
     var helperBlock = $('.helper-pass').addClass('hide');
-    
+
         helperLink.on('mouseover', function(){
             helperBlock.removeClass('hide').addClass('show');
         });
