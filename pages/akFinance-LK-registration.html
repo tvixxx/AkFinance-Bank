@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вход в личный кабинет </title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/akFinance.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!-- Header -->
+	<header class="main-header">
+		<div class="header-container clearfix">
+			<div class="main-logo">
+				<img src="images/main-logo-compress.png" height="100" width="90" alt="main logo">
+			</div class="main-logo">
+			<div class="main-title">
+				<h1>Ак Финанс</h1>
+				<span>Лизинговая компания</span>
+			</div>
+			<div class="return">
+				<a href="#">Вернуться на сайт</a>
+			</div>
+		</div>
+	</header>
+
+	<!-- Main -->
+	<div class="main-content">
+		<div class="main-container">
+			<div class="head-main-content">
+				<h1>Регистрация в личном кабинете</h1>
+				<a class="btn-picker-role" href="#">Регистрация в качестве поставщика</a>
+				<a class="btn-picker-role active" href="#">Регистрация в качестве получателя</a>
+			</div>
+			<div class="head-main-content-description">
+				<p>
+					Личный кабинет предоставляет зарегистрированным пользователям сайта отправлять заявки на лизинг, смотреть статус рассмотрения,заполнять анкеты и заявления, отправлять бухгалтерские, финансовые и учредительные документы.
+				</p>
+				<p>
+					Для регистрации в личном кабинете необходимо заполнить все поля регистрации. После рассмотрения всех полей, в Личном кабинете будет уведомление о подтверджении E-mail письма.
+				</p>
+			</div>
+			<h2>Информация о компании</h2>
+			<div class="registr-form clearfix">
+				<form action="/echo" method="post">
+					<div class="registr-block">
+
+						<label for="city-id">Город</label>
+						<input type="text" name="city" id="city-id" value="">
+
+						<label for="city-id">Организационно-правовая форма</label>
+						<input type="text" name="city" id="city-id" value="">
+
+						<label for="city-id">Название компании / ИП</label>
+						<input type="text" name="city" id="city-id" value="">
+
+						<label for="city-id">Система налогооблажения</label>
+						<input type="text" name="city" id="city-id" value="">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="main-footer">
+		<div class="footer-container">
+			<div class="contacts clearfix">
+				<h2>+7 (843) 212-01-72</h2>
+				<p>
+					ЗАО "Ак Финанс", ИНН 1657036100,   420107, г.Казань, ул.Салимжанова, д.2В, оф.506
+					<a href="#">akfinance@mail.ru</a>
+				</p>
+				<span>Создание сайта Шилов К.А.</span>
+			</div>
+		</div>
+	</footer>
+	
+
+
+
+	<script src="../../jQuery/jquery-1.11.3.js"></script>
+	<script src="js/AkFinance-js.js"></script>
+</body>
+</html>
