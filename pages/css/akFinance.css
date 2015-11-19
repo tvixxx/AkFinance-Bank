@@ -127,6 +127,15 @@ Main-Content
 .login-form {
 	position: relative;
 }
+.main-container h1{
+	font-family: "Open Sans Bold", Arial, sans-serif;
+	font-weight: Bold;
+	font-size: 22px;
+	line-height: 24px;
+	margin-top: 0;
+	margin-bottom: 40px;
+	color: #007BC4;
+}
 .login-form form {
 	max-width: 820px;
 	margin-bottom: 40px;
@@ -256,7 +265,7 @@ Main-Content
 	background:  #5bc0eb url(../images/sprites/icons-LK.png) no-repeat center;
 }
 .btn:hover {
-	background-color: #10A7E7;
+	background-color: #10a7e7;
 	transition: All 0.5s ease;
 }
 .button-login {
@@ -279,7 +288,7 @@ Main-Content
 	text-decoration: none;
 }
 a.icon-reg:hover {
-	background-color: #10A7E7;
+	background-color: #10a7e7;
 	transition: All 0.5s ease;
 }
 .login-form p {
@@ -293,10 +302,9 @@ a.icon-reg:hover {
 
 /*
 *
-Inner-page Access
+Inner-page LK-Access
 *
 */
-
 .inner-page .btn {
 	display: inline-block;
 	vertical-align: top;
@@ -317,7 +325,7 @@ Inner-page Access
 	background:  #5bc0eb url(../images/sprites/icons-LK.png) no-repeat center;
 }
 .inner-page .btn:hover {
-	background-color: #10A7E7;
+	background-color: #10a7e7;
 	transition: All 0.5s ease;
 }
 .inner-page .button-access {
@@ -325,6 +333,93 @@ Inner-page Access
 }
 
 
+/*
+*
+Inner-page LK-Registr
+*
+*/
+.inner-page .main-content {
+	font-size: 0;
+}
+.head-main-content {
+	display: block;
+	margin-bottom: 40px;
+}
+.head-main-content h1 {
+	display: inline-block;
+	max-width: 355px;
+	margin-bottom: 0;
+}
+.head-main-content a {
+	display: inline-block;
+	font-size: 12px;
+	max-width: 201px;
+	margin-top: -3px;
+	margin-left: 130px;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+	vertical-align: top;
+}
+.head-main-content a:last-child {
+	margin-left: 30px;
+}
+.btn-picker-role {
+	padding: 5px 15px;
+	background-color: #e7f6fc;
+	border-radius: 3px;
+}
+.btn-picker-role:hover {
+	color: #fff;
+	background-color: #10a7e7;
+}
+.btn-picker-role.active {
+	color: #fff;
+	background-color: #10a7e7;
+}
+.head-main-content-description {
+	margin-bottom: 45px;
+}
+.head-main-content-description p{
+	font-size: 12px;
+}
+.main-container h2 {
+	font-family: "Open Sans Bold", Arial, sans-serif;
+	font-weight: Bold;
+	font-size: 18px;
+	line-height: 24px;
+	margin-top: 0;
+	margin-bottom: 40px;
+	color: #007BC4;
+}
+
+
+.registr-block label {
+	width: 195px;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.registr-block input {
+	display: inline-block;
+	width: 154px;
+	min-height: 13px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 40px;
+	margin-right: 40px;
+	outline: none;
+	border: none;
+	background-color: #e7f6fc;
+}
+.registr-block input:last-child {
+	margin-right: 0;
+}
+
+/* 
+width 214 each block
+40px right margin
+*/
 
 
 /*
