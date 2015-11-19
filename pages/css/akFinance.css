@@ -124,7 +124,11 @@ Main-Content
 	min-height: 500px;
 	font-size: 0;
 }
+.login-form {
+	position: relative;
+}
 .login-form form {
+	position: relative;
 	max-width: 820px;
 	margin-bottom: 40px;
 }
@@ -145,12 +149,13 @@ Main-Content
 /* Helper for login page */
 .helper-pass {
 	display: block;
-	max-width: 200px;
+	width: 200px;
 	background-color: #e7f6fc;
 	position: relative;
-	top: -665px;
-	left: 865px;
-	right: 20px;
+	top: -660px;
+	left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 	padding: 10px 10px;
 	border-radius: 3px;
 	text-align: center;
