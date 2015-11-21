@@ -75,7 +75,6 @@ $(document).ready(function(){
 });
 
 /* Second Method */
-/* Method second registration page */
 var helperLawLabel = $('#law-label');
 var helperLawBlock = $('#law-form-helper').addClass('hide');
 
