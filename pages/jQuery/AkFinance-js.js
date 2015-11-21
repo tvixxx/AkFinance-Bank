@@ -75,9 +75,14 @@ $(document).ready(function(){
 });
 
 /* Second Method */
+/* Method second registration page */
 var helperLawLabel = $('#law-label');
 var helperLawBlock = $('#law-form-helper').addClass('hide');
 
+var helperCreditLabel = $('#credit-label');
+var helperCreditBlock = $('#credit-form-helper').addClass('hide');
+
+    /* law-block animation */
     helperLawLabel.hover(function(){
         // fadeIn
         helperLawBlock.animate ({
@@ -86,6 +91,19 @@ var helperLawBlock = $('#law-form-helper').addClass('hide');
     }, //fadeOut
     function(){
         helperLawBlock.animate({
+            'opacity' : 'hide'
+        },300);
+    });
+    
+    /* credit-block animation */
+    helperCreditLabel.hover(function(){
+        // fadeIn
+        helperCreditBlock.animate ({
+            'opacity' : 'show'
+        },300)
+    }, //fadeOut
+    function(){
+        helperCreditBlock.animate({
             'opacity' : 'hide'
         },300);
     });
