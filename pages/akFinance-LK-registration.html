@@ -42,24 +42,65 @@
 					Для регистрации в личном кабинете необходимо заполнить все поля регистрации. После рассмотрения всех полей, в Личном кабинете будет уведомление о подтверджении E-mail письма.
 				</p>
 			</div>
-			<h2>Информация о компании</h2>
-			<div class="registr-form clearfix">
-				<form action="/echo" method="post">
-					<div class="registr-block">
+			<div class="registr-form">
+				<div class="info-company">
+				<h2>Информация о компании</h2>
+					<form class="check-form" action="/echo">
+						<div class="reg-block">
+							<label  name="city" for="">Город:</label>
+							<input type="text">
+						</div>
+							
+						<div class="reg-block">
+							<label name="law" for="">Организационно-правовая форма</label>
+							<select name="law" id="">
+								<option  selected="Выберите из списка">Выберите из списка</option>
+								<option value="first type">1</option>
+								<option value="second type">2</option>
+								<option value="third type">3</option>
+							</select>
+						</div>
 
-						<label for="city-id">Город</label>
-						<input type="text" name="city" id="city-id" value="">
+						<div class="reg-block">
+							<label  name="comapny" for="company-id">Название компании / ИП</label>
+							<input type="text" id="company-id">
+						</div>
 
-						<label for="city-id">Организационно-правовая форма</label>
-						<input type="text" name="city" id="city-id" value="">
+						<div class="reg-block">
+							<label name="credit" for="credit-id">Система налогооблажения</label>
+							<select name="credit" id="credit-id">
+								<option selected="Выберите из списка">Выберите из списка</option>
+								<option value="first type">1</option>
+								<option value="second type">2</option>
+								<option value="third type">3</option>
+							</select>
+						</div>
+					</form>
+				</div>
+				<div class="info-contact">
+					<h2>Контактные данные</h2>
+					<form class="check-form" action="/echo">
+						<div class="reg-block">
+							<label  name="city" for="">ФИО</label>
+							<input type="text">
+						</div>
+							
+						<div class="reg-block">
+							<label name="phone-number" for="">Сотовый телефон</label>
+							<input type="text" >
+						</div>
 
-						<label for="city-id">Название компании / ИП</label>
-						<input type="text" name="city" id="city-id" value="">
+						<div class="reg-block">
+							<label  name="comapny" for="email-id">E-mail</label>
+							<input type="email" id="email-id">
+						</div>
 
-						<label for="city-id">Система налогооблажения</label>
-						<input type="text" name="city" id="city-id" value="">
-					</div>
-				</form>
+						<div class="reg-block">
+							<label name="password" for="password-id">Пароль</label>
+							<input type="password" id="password-id">
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
