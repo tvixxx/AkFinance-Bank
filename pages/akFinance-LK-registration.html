@@ -54,7 +54,7 @@
 						<div class="reg-block">
 							<label name="law" for="">Организационно-правовая форма</label>
 							<select name="law" id="">
-								<option  selected="Выберите из списка">Выберите из списка</option>
+								<option  selected="Выберите из списка" disabled>Выберите из списка</option>
 								<option value="first type">1</option>
 								<option value="second type">2</option>
 								<option value="third type">3</option>
@@ -69,7 +69,7 @@
 						<div class="reg-block">
 							<label name="credit" for="credit-id">Система налогооблажения</label>
 							<select name="credit" id="credit-id">
-								<option selected="Выберите из списка">Выберите из списка</option>
+								<option selected="Выберите из списка" disabled>Выберите из списка</option>
 								<option value="first type">1</option>
 								<option value="second type">2</option>
 								<option value="third type">3</option>
@@ -81,13 +81,13 @@
 					<h2>Контактные данные</h2>
 					<form class="check-form" action="/echo">
 						<div class="reg-block">
-							<label  name="city" for="">ФИО</label>
-							<input type="text">
+							<label  name="name" for="name-id">ФИО</label>
+							<input type="text" id="name-id">
 						</div>
 							
 						<div class="reg-block">
-							<label name="phone-number" for="">Сотовый телефон</label>
-							<input type="text" >
+							<label name="phone-number" for="phone-number-id">Сотовый телефон</label>
+							<input type="text" id="phone-number-id">
 						</div>
 
 						<div class="reg-block">
@@ -100,6 +100,7 @@
 							<input type="password" id="password-id">
 						</div>
 					</form>
+					<button class="btn-reg btn-icon">Зарегистрироваться</button>
 				</div>
 			</div>
 		</div>
