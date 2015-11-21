@@ -1,4 +1,5 @@
-/* Fourth method with hover animation*/
+    /* login page */
+/* Fourth method with hover animation*/ 
 $(document).ready(function(){
     var helperLink = $('#helperLink');
     var helperBlock = $('#helper-pass').addClass('hide');
@@ -18,7 +19,7 @@ $(document).ready(function(){
 });
 
 
-/* First method */
+/* First method */ 
 $(document).ready(function(){
     var helperLink = $('#helperLink');
     var helperBlock = $('.helper-pass').addClass('hide');
@@ -58,3 +59,18 @@ $(document).ready(function(){
            helperBlock.removeClass('show').addClass('hide');
         });
 });
+
+    /* registration page */
+/* First method */    
+$(document).ready(function(){
+    var helperLawLabel = $('#law-label');
+    var helperLawBlock = $('#law-form-helper').addClass('hide');
+
+    helperLawLabel.on('mouseover', function(){
+       helperLawBlock.removeClass('hide').addClass('show');
+    });
+    helperLawLabel.on('mouseleave', function(){
+        helperLawBlock.removeClass('show').addClass('hide');
+    });
+});
+/* Second method */   
