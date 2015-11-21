@@ -357,6 +357,7 @@ Inner-page LK-Registr
 	font-size: 0;
 }
 .check-form {
+	position: relative;
 	min-width: 200px;
 	max-width: 997px;
 	font-size: 12px;
@@ -539,6 +540,74 @@ Footer
 	margin-bottom: 0;
 	font-size: 12px;
 }
+/* Helper for registration page */
+
+/* Law-form */
+.law-form-helper {
+	display: block;
+	width: 200px;
+	top: -710px;
+	left: 815px;
+	position: relative;
+	padding: 20px 25px;
+	border-radius: 3px;
+	background-color: #10a7e7;
+}
+.law-form-helper:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 120px;
+	left: 90px;
+	width: 25px;
+	height: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color:  #10a7e7;
+	border-radius: 3px;
+	transform: rotate(45deg);
+	z-index: 1;
+}
+.law-form-helper p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	color: #fff;
+}
+
+/* Credit-form */
+.credit-form-helper {
+	display: block;
+	width: 200px;
+	top: -680px;
+	left: 1310px;
+	position: relative;
+	padding: 20px 25px;
+	border-radius: 3px;
+	background-color: #10a7e7;
+}
+.credit-form-helper:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 95px;
+	left: 90px;
+	width: 25px;
+	height: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color:  #10a7e7;
+	border-radius: 3px;
+	transform: rotate(45deg);
+	z-index: 1;
+}
+.credit-form-helper p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	color: #fff;
+}
+
 /* hide and show block helper-pass */
 .hide {
 	display: none;
