@@ -47,13 +47,13 @@
 				<h2>Информация о компании</h2>
 					<form class="check-form" action="/echo">
 						<div class="reg-block">
-							<label  name="city" for="">Город:</label>
-							<input type="text">
+							<label  name="city" for="city-id">Город:</label>
+							<input type="text" id="city-id">
 						</div>
 							
 						<div class="reg-block">
-							<label name="law" for="">Организационно-правовая форма</label>
-							<select name="law" id="">
+							<label id="law-label" name="law" for="law-id">Организационно-правовая форма</label>
+							<select name="law" id="law-id">
 								<option  selected="Выберите из списка" disabled>Выберите из списка</option>
 								<option value="first type">1</option>
 								<option value="second type">2</option>
@@ -67,7 +67,7 @@
 						</div>
 
 						<div class="reg-block">
-							<label name="credit" for="credit-id">Система налогооблажения</label>
+							<label id="credit-label" name="credit" for="credit-id">Система налогооблажения</label>
 							<select name="credit" id="credit-id">
 								<option selected="Выберите из списка" disabled>Выберите из списка</option>
 								<option value="first type">1</option>
@@ -120,7 +120,14 @@
 		</div>
 	</footer>
 	
-
+<!-- Hover for Law-form window -->
+	<div id="law-form-helper" class="law-form-helper">
+		<p>Выберите: Индивидуальный предприниматель или Компания. К Компании относятся ООО, ОАО, ЗАО.</p>
+	</div>
+<!-- Hover for Credit-form window -->
+	<div id="credit-form-helper" class="credit-form-helper">
+		<p>Здесь будет указанный текст.Здесь будет указанный текст.Здесь будет указанный текст.</p>
+	</div>
 
 
 	<script src="../../jQuery/jquery-1.11.3.js"></script>
