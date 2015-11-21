@@ -73,4 +73,19 @@ $(document).ready(function(){
         helperLawBlock.removeClass('show').addClass('hide');
     });
 });
-/* Second method */   
+
+/* Second Method */
+var helperLawLabel = $('#law-label');
+var helperLawBlock = $('#law-form-helper').addClass('hide');
+
+    helperLawLabel.hover(function(){
+        // fadeIn
+        helperLawBlock.animate ({
+            'opacity' : 'show'
+        },300)
+    }, //fadeOut
+    function(){
+        helperLawBlock.animate({
+            'opacity' : 'hide'
+        },300);
+    });
