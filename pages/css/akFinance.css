@@ -367,6 +367,7 @@ Inner-page LK-Registr
 	padding: 5px 15px;
 	background-color: #e7f6fc;
 	border-radius: 3px;
+	transition: all 0.3s ease;
 }
 .btn-picker-role:hover {
 	color: #fff;
@@ -441,6 +442,14 @@ label[name="credit"]:after {
 	background-position: 0px 0px;
 	cursor: pointer;
 }
+.check-form input {
+	width: 184px;
+	padding: 10px 15px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	background-color: #e7f6fc;
+}
 .check-form select {
 	display: inline-block;
 	width: 214px;
@@ -450,20 +459,42 @@ label[name="credit"]:after {
 	border: none;
 	list-style: none;
 	border-radius: 3px;
-
 }
-.check-form input {
-	width: 184px;
-	padding: 10px 15px;
+
+.btn-reg {
+	display: block;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 190px;
+	margin-bottom: 80px;
 	border-radius: 3px;
+	outline: 1px solid #10a7e7;
 	border: none;
+	color: #fff;
+	background:  #5bc0eb url(../images/sprites/icons-LK-Registration.png) no-repeat;
 	outline: none;
-	background-color: #e7f6fc;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
 }
-
-
-
-
+.btn-icon {
+	background-position: 220px -120px;
+	background-size: 13px;
+}
+.btn-reg:hover {
+	background-color: #10a7e7;
+}
+.check-form input:focus {
+	background-color: #dcebf1;
+}
+.check-form select:focus {
+	background-color: #dcebf1;
+}
 /* 
 width 214 each block
 40px right margin
