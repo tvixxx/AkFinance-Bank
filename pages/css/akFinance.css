@@ -351,13 +351,15 @@ Inner-page LK-Registr
 	margin-bottom: 40px;
 	color: #007BC4;
 }
+.registr-form {
+	position: relative;
+}
 .info-company {
 	margin: 0;
 	padding: 0;
 	font-size: 0;
 }
 .check-form {
-	position: relative;
 	min-width: 200px;
 	max-width: 997px;
 	font-size: 12px;
@@ -366,6 +368,7 @@ Inner-page LK-Registr
 .reg-block {
 	display: inline-block;
 	max-width: 214px;
+	position: relative;
 	margin-right: 30px;
 	vertical-align: top;
 }
@@ -544,11 +547,11 @@ Footer
 
 /* Law-form */
 .law-form-helper {
-	display: block;
+	display: none;
 	width: 200px;
-	top: -710px;
-	left: 815px;
-	position: relative;
+	position: absolute;
+	top: -90px;
+	left: 353px;
 	padding: 20px 25px;
 	border-radius: 3px;
 	background-color: #10a7e7;
@@ -577,11 +580,11 @@ Footer
 
 /* Credit-form */
 .credit-form-helper {
-	display: block;
+	display: none;
 	width: 200px;
-	top: -680px;
-	left: 1310px;
-	position: relative;
+	position: absolute;
+	top: -75px;
+	left: 847px;
 	padding: 20px 25px;
 	border-radius: 3px;
 	background-color: #10a7e7;
